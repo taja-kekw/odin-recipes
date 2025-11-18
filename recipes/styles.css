@@ -1,0 +1,94 @@
+body{
+  font-family:Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-color: rgb(255, 244, 234);
+  margin-top: 140px;
+}
+
+.logo {
+    height: 60px;
+    width: auto;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.header-text, #header-link {
+    color: rgba(212, 165, 34, 0.767);
+    font-weight: 500;
+    font-size: 36px;
+    text-align: center;
+    text-decoration: none;
+    font-family: Tahoma;
+    margin-bottom: 5px;
+}
+
+#forward {
+    color: rgb(212, 164, 34);
+    font-weight: 600;
+
+}
+
+.header {
+    background-color: rgba(56, 37, 2, 0.979);
+    width: 100%;
+    position: fixed;
+    margin-top: 0px;
+    color: rgba(212, 165, 34, 0.767);
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    margin-top: 0;
+    border-bottom: 8px solid rgb(7, 7, 7);
+    border-color:  rgba(0, 0, 0, 0.26)
+}
+
+div h1 {
+    text-align: center;
+    color: #000000fd;
+}
+
+img {
+    display:block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    border: 1px rgba(255, 255, 255, 0.596);
+    border-radius: 3%;
+}
+
+.box {
+    background-color: rgba(255, 255, 255, 0.61);
+    width: 70%;
+    margin: auto;
+    padding: 10px;
+    margin-top: 5 px;
+    margin-bottom: 10px;
+    padding-left: 30px;
+    border: 3px solid black;
+    border-radius: 3%;
+    border-color: rgba(0, 0, 0, 0.26);
+    width: 800px;
+}
+
+li {
+    padding: 1%;
+}
+
+p,li,h2,h3 {
+    padding: 2px;
+    margin: 10px;
+}
+
+h2,h3 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+ul {
+  padding: 2px;
+  list-style-type: none;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
