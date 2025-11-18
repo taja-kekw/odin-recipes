@@ -59,16 +59,14 @@ img {
 
 .box {
     background-color: rgba(255, 255, 255, 0.61);
-    width: 70%;
+    width: 600px;
     margin: auto;
     padding: 10px;
     margin-top: 5 px;
-    margin-bottom: 10px;
-    padding-left: 30px;
+    margin-bottom: 10px; 
     border: 3px solid black;
     border-radius: 3%;
     border-color: rgba(0, 0, 0, 0.26);
-    width: 800px;
 }
 
 li {
@@ -76,19 +74,28 @@ li {
 }
 
 p,li,h2,h3 {
-    padding: 2px;
+    padding: 4px;
     margin: 10px;
+    text-wrap: pretty;
+    
 }
 
 h2,h3 {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 ul {
   padding: 2px;
   list-style-type: none;
-  width: 50%;
+  display: table;
   margin: 0 auto;
   text-align: center;
+}
+
+p {
+    text-align: justify;}
+
+li {
+    margin-top: auto;
 }
