@@ -1,5 +1,5 @@
 body{
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background-color: rgb(255, 244, 234);
     margin-top: 160px;
 }
@@ -74,5 +74,6 @@ ul {
 a {
     color: rgba(212, 165, 34, 0.767);
     text-decoration: none;
-    font-weight: 800;
+    font-weight: 600;
+    font-family: "Courier New";
 }
